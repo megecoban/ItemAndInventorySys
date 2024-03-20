@@ -1,0 +1,20 @@
+{
+    "items" : [
+        {
+            "id": 1,
+            "name": "Wood",
+            "description": "Wood, which is obtained from trees",
+            "weight": 1
+        },{
+            "id": 2,
+            "name": "Metal Piece",
+            "description": "Something has reflective surface with sharp edges",
+            "weight": 5
+        },{
+            "id": 3,
+            "name": "Anime Girl",
+            "description": "She is not real",
+            "weight": 0
+        }
+        ]
+}

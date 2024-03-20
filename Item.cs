@@ -108,3 +108,20 @@ public class SaleItem : Item
         return returnItem;
     }
 }
+
+
+
+[System.Serializable]
+public class ItemsJSON
+{
+    public ItemJSON[] items;
+}
+
+[System.Serializable]
+public class ItemJSON
+{
+    public int id;
+    public string name;
+    public string description;
+    public float weight;
+}

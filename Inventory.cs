@@ -16,8 +16,10 @@ public class Inventory : MonoBehaviour
             if (inventoryItems[i].ID == item.ID)
             {
                 inventoryItems[i].AddAmount(item.Amount);
+                return;
             }
         }
+        inventoryItems.Add(item);
     }
 
     public void RemoveItemAmount(int itemID, int amount)
